@@ -16,9 +16,12 @@ body {
 .container header {
   grid-template-areas: 1/1/2/2;
   background-color: #111e31;
-  color: white;
+  color: #7b6542;
   display: flex;
-  padding: 30px 0;
+  padding-top: 40px;
+  padding-bottom: 49px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 
 .container header img {
@@ -35,15 +38,15 @@ body {
   grid-template-areas: 2/2/3/3;
   background-color: #111e31;
   text-align: center;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   background: #17263c;
   border: solid 1px #3d495b;
+  font-size: 25px;
 }
 .container ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  /* justify-content: space-evenly; */
 }
 .container a {
   text-decoration: none;
@@ -67,7 +70,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  /* padding-top: 80px; */
+  padding-top: 60px;
 }
 .container main img {
   width: 84%;
