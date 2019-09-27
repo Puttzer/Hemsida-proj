@@ -81,8 +81,11 @@ body {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
+
+/* Redo result with less code! */
 .container text {
-  margin: 35px;
+  width: 85%;
+  margin: 26px;
   grid-template-areas: 4/4/5/5;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
