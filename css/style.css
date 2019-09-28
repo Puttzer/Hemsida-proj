@@ -209,6 +209,10 @@ body {
   object-fit: cover;
 }
 
+.container main img.code {
+  display: none;
+}
+
 /* Redo result with less code! */
 .container text {
   width: 85%;
@@ -243,12 +247,16 @@ body {
     grid-area: 1/1/2/5;
     width: 5%;
     font-size: 10px;
-    padding 10px;
+    padding: 10px;
   }
 
   .container main {
     grid-area: 2/1/3/5;
     background-image: url(/img/codebackground.jpg);
     display: block;
+  }
+
+  .container main img.code {
+    display: inline-block;
   }
 }
